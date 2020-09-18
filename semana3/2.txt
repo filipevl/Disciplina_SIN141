@@ -1,0 +1,6 @@
+Descreva uma situação do mundo real em que seja necessário criar uma classe em
+que o código do construtor tenha que ser executado antes de qualquer outro
+código. Não é necessário implementar o código.
+
+Uma classe de carros de uma empresa, em que é preciso colocar o numero de série que é específico
+de cada carro no chassi, as demais características são variáveis, cor, direção, potencia, etc...
