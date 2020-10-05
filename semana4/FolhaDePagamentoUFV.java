@@ -23,7 +23,7 @@ public class FolhaDePagamentoUFV{
     public int getMes(){
         return this.mes;
     }
-    public float getAno(){
+    public int getAno(){
         return this.ano;
     }
     public float getTotalDeVencimentos(){
@@ -40,6 +40,18 @@ public class FolhaDePagamentoUFV{
     }
 
     public void imprimir(){
-        System.out.printf("\n%s - %s - %s\nData de nascimento: %d/%d/%d \nData de admissão:%d/%d\nTotal de vencimentos:%f\n",getFuncionario().getNome(),getFuncionario().getMatricula(),getFuncionario().getCargo(),getFuncionario().getData().getDia(),getFuncionario().getData().getMes(),getFuncionario().getData().getAno(),getMes(),getAno(),getTotalDeVencimentos());
+        String nome,cargo,matricula;
+        int dia,mes,ano,m,a;
+        float totalDeVencimentos;
+        nome = getFuncionario().getNome();
+        matricula = getFuncionario().getMatricula();
+        cargo = getFuncionario().getCargo();
+        dia = getFuncionario().getData().getDia();
+        mes = getFuncionario().getData().getMes();
+        ano = getFuncionario().getData().getAno();
+        m = getMes();
+        a = getAno();
+        totalDeVencimentos = getTotalDeVencimentos();
+        System.out.printf("\n%s - %s - %s\nData de nascimento: %d/%d/%d \nData de admissão:%d/%d\nTotal de vencimentos:%f\n",nome,cargo,matricula,dia,mes,ano,m,a,totalDeVencimentos);
     }
 }
