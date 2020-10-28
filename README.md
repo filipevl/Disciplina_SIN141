@@ -6,3 +6,4 @@ semana 2 - Classe Scanner e Math, Classe e objeto
 semana 3 - Construtores e array
 semana 4 - Atributos do tipo classe e encapsulamento
 semana 5 - Sobrecarga de métodos e construtores, Classe String
+PlacasDeCarro - exercício geral
