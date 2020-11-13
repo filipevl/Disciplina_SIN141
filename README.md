@@ -6,6 +6,9 @@ semana 2 - Classe Scanner e Math, Classe e objeto
 semana 3 - Construtores e array
 semana 4 - Atributos do tipo classe e encapsulamento
 semana 5 - Sobrecarga de métodos e construtores, Classe String
+semana 6 - Herança
+semana 7 - Trabalho
 PlacasDeCarro - exercício geral
 DiaDaSemana - exercício geral
+semana 8 -> prova ^ execicios da prova placasDeCarro e DiaDaSemana
 semana 9 - Classe abstrata e Interface
